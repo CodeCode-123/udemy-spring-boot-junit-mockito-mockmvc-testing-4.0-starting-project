@@ -13,4 +13,5 @@ public class StudentOrGradeNotFoundException extends RuntimeException {
     public StudentOrGradeNotFoundException(Throwable cause) {
         super(cause);
     }
+
 }

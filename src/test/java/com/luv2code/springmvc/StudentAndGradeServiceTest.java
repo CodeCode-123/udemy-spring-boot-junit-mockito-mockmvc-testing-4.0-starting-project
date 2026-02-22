@@ -68,7 +68,6 @@ public class StudentAndGradeServiceTest {
     @Value("${sql.script.delete.history.grade}")
     private String sqlDeleteHistoryGrade;
 
-
     @BeforeEach
     public void setupDatabase() {
         jdbc.execute(sqlAddStudent);
